@@ -1,0 +1,6 @@
+<testsuites name="jest tests">
+  <testsuite name="undefined" tests="1" errors="0" failures="0" skipped="0" timestamp="2017-08-01T02:27:13" time="4.021">
+    <testcase classname=" CheckboxWithLabel changes the text after click" name=" CheckboxWithLabel changes the text after click" time="0.062">
+    </testcase>
+  </testsuite>
+</testsuites>

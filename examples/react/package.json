@@ -8,9 +8,10 @@
     "babel-preset-env": "*",
     "babel-preset-react": "*",
     "jest": "*",
+    "jest-junit": "2.1.0",
     "react-addons-test-utils": "15.4.2"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --ci --testResultsProcessor='./node_modules/jest-junit'"
   }
 }
