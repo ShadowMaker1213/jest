@@ -11,6 +11,8 @@ node {
 
        stage('Init'){
            sh 'npm install'
+           sh 'cd examples/react'
+           sh 'npm install'
        }
 
 
@@ -20,7 +22,7 @@ node {
 
          print "Environment will be : ${env.NODE_ENV}"
 
-         
+         sh 'cd examples/react'
          sh 'npm run test'
 
        }
