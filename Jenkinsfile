@@ -10,6 +10,7 @@ node {
        }
 
        stage('Init'){
+           step([$class: 'JUnitResultArchiver', testResults: './examples/react/*.xml', healthScaleFactor: 1.0])
            sh 'npm install'
            sh 'cd examples/react'
            sh 'npm install'
@@ -30,7 +31,7 @@ node {
 
     }
     catch (err) {
-
+        step([$class: 'JUnitResultArchiver', testResults: '**/reports/junit/*.xml', healthScaleFactor: 1.0])
         currentBuild.result = "FAILURE"
 
         throw err
