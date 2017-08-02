@@ -25,7 +25,7 @@ node {
 
          sh 'cd examples/react'
          sh 'npm run test'
-
+         deleteDir();
        }
 
 
