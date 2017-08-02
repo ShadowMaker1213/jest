@@ -10,23 +10,11 @@ node {
        }
 
        stage('Init'){
+         echo 'init ... '
            
-           sh 'npm install'
-           sh 'cd examples/react'
-           sh 'npm install'
        }
 
 
-       stage('Test'){
-
-         env.NODE_ENV = "development"
-
-         print "Environment will be : ${env.NODE_ENV}"
-
-         sh 'cd examples/react'
-         sh 'npm run test'
-         deleteDir();
-       }
 
 
     }
