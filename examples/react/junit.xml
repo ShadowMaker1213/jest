@@ -6,7 +6,5 @@
     </testcase>
     <testcase classname="addition positive numbers 2" name="should add up 2" time="0.009">
     </testcase>
-    <testcase classname="addition positive numbers 3" name="should add up 3" time="0.109">
-    </testcase>
   </testsuite>
 </testsuites>
