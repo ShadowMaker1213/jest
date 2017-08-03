@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for core-modules/request/requestMiddleware.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">core-modules/request</a> requestMiddleware.ts
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">30% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>9/30</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">11.76% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>2/17</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">32.14% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>9/28</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import {
+  AxiosError,
+  AxiosInstance,
+  AxiosRequestConfig,
+  AxiosResponse,
+} from 'axios';
+import assign from 'lodash/assign';
+import { Dispatc<span class="fstat-no" title="function not covered" >h } from 'react-redu</span>x';
+import { MiddlewareAPI } f<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >ro</span>m 'redux';</span>
+<span class="cstat-no" title="statement not covered" ></span>
+export const createSuccessActionType = (type: string) =&gt; {
+  return `${type}_REQUEST_SUCCESS`;
+};
+&nbsp;
+export const createFailedActionType = (type: string) =&gt; {
+  return `${type}_REQUEST_FAILED`;
+};
+<span class="cstat-no" title="statement not covered" ></span>
+export interface I<span class="fstat-no" title="function not covered" >Re</span>ques<span class="cstat-no" title="statement not covered" >tActi</span>on {
+  type: string;
+  payload: AxiosReques<span class="fstat-no" title="function not covered" >tC</span>onfig;
+  meta: {<span class="cstat-no" title="statement not covered" ></span>
+    request: true;
+  };
+}
+<span class="fstat-no" title="function not covered" ></span>
+export interface<span class="cstat-no" title="statement not covered" > IAxiosResponse&lt;TData&gt; {</span>
+  data: TData;
+  status: number;
+  statusText: string;
+  he<span class="cstat-no" title="statement not covered" >aders: any;</span>
+  co<span class="cstat-no" title="statement not covered" >nfig: AxiosRequestConf</span>ig;
+}
+<span class="fstat-no" title="function not covered" ></span>
+expo<span class="cstat-no" title="statement not covered" >rt interface IRequestSuccessAction&lt;TData&gt; {</span>
+  type: string;
+  payload: IAxiosResponse&lt;TDa<span class="fstat-no" title="function not covered" >ta</span>&gt;;
+  me<span class="cstat-no" title="statement not covered" >ta: {</span>
+    previousAction: IRequestAction;
+  };
+}
+&nbsp;
+export interface IRequestFai<span class="fstat-no" title="function not covered" >le</span>dAction {
+  ty<span class="cstat-no" title="statement not covered" >pe: string;</span>
+  error: AxiosError;
+  payload: any;
+  meta: {
+    previousAction: IReques<span class="fstat-no" title="function not covered" >tA</span>ction;
+  };<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+export function createRequestAction&lt;TReq&gt;(type: string, reqMapper: (req: TReq) =&gt; AxiosRequestConfig) {
+  const actionCreator = (req: TRe<span class="fstat-no" title="function not covered" >q)</span>: IRequestAction =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >{<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span>
+      ty<span class="cstat-no" title="statement not covered" >pe,</span>
+      payloa<span class="cstat-no" title="statement not covered" >d: reqMapper(req),</span>
+      meta: <span class="cstat-no" title="statement not covered" >{</span>
+        request: true,<span class="fstat-no" title="function not covered" ></span>
+      },<span class="cstat-no" title="statement not covered" ></span>
+    };
+  };<span class="fstat-no" title="function not covered" ></span>
+  const helpers <span class="cstat-no" title="statement not covered" >= {</span>
+    toString: () =&gt; type,
+    success: {
+      to<span class="cstat-no" title="statement not covered" >String: () =&gt; {</span>
+        return createSuccessActionType(type);
+      },
+    },
+    failed: {
+      toString: () =&gt; {
+        return createFailedActionType(type);
+      },
+    },
+  };
+  assign(actionCreator, helpers);
+  return actionCreator as typeof actionCreator &amp; typeof helpers;
+}
+&nbsp;
+const isRequestAction = (action: IRequestAction) =&gt; {
+  return action.meta &amp;&amp; action.meta.request;
+};
+&nbsp;
+const createReqStartAction = (action: IRequestAction): any =&gt; {
+  return {
+    type: `${action.type}_REQUEST_START`,
+    payload: action,
+  };
+};
+&nbsp;
+const createSuccessAction = (action: IRequestAction, response: AxiosResponse): IRequestSuccessAction&lt;any&gt; =&gt; {
+  return {
+    ...action,
+    type: createSuccessActionType(action.type),
+    payload: response,
+    meta: {
+      previousAction: action,
+    },
+  };
+};
+&nbsp;
+const createFailedAction = (action: IRequestAction, error: AxiosError): IRequestFailedAction =&gt; {
+  return {
+    ...action,
+    type: createFailedActionType(action.type),
+    error,
+    meta: {
+      previousAction: action,
+    },
+  };
+};
+&nbsp;
+export const requestMiddleware: any = (client: AxiosInstance) =&gt; {
+  return ({ dispatch }: MiddlewareAPI&lt;any&gt;) =&gt;
+    (next: Dispatch&lt;any&gt;) =&gt;
+      (action: IRequestAction) =&gt; {
+        if (isRequestAction(action)) {
+          dispatch(createReqStartAction(action));
+          return client.request(action.payload)
+            .then((response: AxiosResponse) =&gt; {
+              return dispatch(createSuccessAction(action, response));
+            })
+            .catch((error: AxiosError) =&gt; {
+              return dispatch(createFailedAction(action, error));
+            });
+        }
+        return next(action);
+      };
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Aug 03 2017 15:54:40 GMT+0800 (CST)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>
