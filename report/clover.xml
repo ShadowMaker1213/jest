@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1501732038957" clover="3.2.0">
+  <project timestamp="1501732038958" name="All files">
+    <metrics statements="545" coveredstatements="23" conditionals="497" coveredconditionals="2" methods="205" coveredmethods="9" elements="1247" coveredelements="34" complexity="0" loc="545" ncloc="545" packages="42" files="65" classes="65">
+      <package name="app-gw">
+        <metrics statements="30" coveredstatements="0" conditionals="31" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <file name="configureStore.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/configureStore.ts">
+          <metrics statements="12" coveredstatements="0" conditionals="13" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="1"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+        </file>
+        <file name="getRouterRoutes.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/getRouterRoutes.tsx">
+          <metrics statements="10" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+        </file>
+        <file name="index.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/index.tsx">
+          <metrics statements="8" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="8" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.car-detail">
+        <metrics statements="5" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="index.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/car-detail/index.ts">
+          <metrics statements="5" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.car-detail.components">
+        <metrics statements="17" coveredstatements="0" conditionals="24" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <file name="CarInfo.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/car-detail/components/CarInfo.tsx">
+          <metrics statements="7" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+        </file>
+        <file name="Features.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/car-detail/components/Features.tsx">
+          <metrics statements="10" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.car-detail.constants">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="carInfo.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/car-detail/constants/carInfo.ts">
+          <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.car-detail.pages">
+        <metrics statements="27" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <file name="CarDetail.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/car-detail/pages/CarDetail.tsx">
+          <metrics statements="27" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="7" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="100" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.car-detail.redux">
+        <metrics statements="4" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="actions.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/car-detail/redux/actions.ts">
+          <metrics statements="4" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.errors">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/errors/index.ts">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.errors.pages">
+        <metrics statements="5" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="NotFound.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/errors/pages/NotFound.tsx">
+          <metrics statements="5" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.home">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/home/index.ts">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.home.components">
+        <metrics statements="55" coveredstatements="0" conditionals="34" coveredconditionals="0" methods="14" coveredmethods="0"/>
+        <file name="Counter.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/home/components/Counter.tsx">
+          <metrics statements="11" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+        </file>
+        <file name="SearchBox.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/home/components/SearchBox.tsx">
+          <metrics statements="38" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="72" count="0" type="stmt"/>
+          <line num="82" count="0" type="stmt"/>
+          <line num="83" count="0" type="stmt"/>
+          <line num="84" count="0" type="stmt"/>
+          <line num="85" count="0" type="stmt"/>
+          <line num="86" count="0" type="stmt"/>
+          <line num="101" count="0" type="stmt"/>
+          <line num="111" count="0" type="stmt"/>
+          <line num="151" count="0" type="stmt"/>
+          <line num="152" count="0" type="stmt"/>
+          <line num="155" count="0" type="stmt"/>
+          <line num="156" count="0" type="stmt"/>
+          <line num="160" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="161" count="0" type="stmt"/>
+          <line num="163" count="0" type="stmt"/>
+          <line num="210" count="0" type="stmt"/>
+        </file>
+        <file name="TopProducts.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/home/components/TopProducts.tsx">
+          <metrics statements="6" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.home.constants">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="homeConstants.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/home/constants/homeConstants.ts">
+          <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.home.pages">
+        <metrics statements="10" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="Home.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/home/pages/Home.tsx">
+          <metrics statements="10" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.home.redux">
+        <metrics statements="14" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <file name="actions.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/home/redux/actions.ts">
+          <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+        </file>
+        <file name="counterReducer.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/home/redux/counterReducer.ts">
+          <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/home/redux/index.ts">
+          <metrics statements="2" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="1" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="2" count="0" type="cond" truecount="0" falsecount="4"/>
+        </file>
+      </package>
+      <package name="app-gw.login">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/login/index.ts">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.login.components">
+        <metrics statements="5" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="LoginForm.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/login/components/LoginForm.tsx">
+          <metrics statements="5" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.login.pages">
+        <metrics statements="4" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <file name="Login.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/login/pages/Login.tsx">
+          <metrics statements="4" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.root">
+        <metrics statements="22" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <file name="Html.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/root/Html.tsx">
+          <metrics statements="5" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+        </file>
+        <file name="Root.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/root/Root.tsx">
+          <metrics statements="10" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/root/index.ts">
+          <metrics statements="1" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="cond" truecount="0" falsecount="4"/>
+        </file>
+        <file name="rootReducers.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/root/rootReducers.ts">
+          <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.search-results">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="index.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/search-results/index.ts">
+          <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.search-results.pages">
+        <metrics statements="13" coveredstatements="0" conditionals="13" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <file name="SearchResults.tsx" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/search-results/pages/SearchResults.tsx">
+          <metrics statements="13" coveredstatements="0" conditionals="13" coveredconditionals="0" methods="8" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="44" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app-gw.search-results.redux">
+        <metrics statements="5" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="actions.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/search-results/redux/actions.ts">
+          <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/ylzhang/WorkSpace/gw-www/app-gw/search-results/redux/index.ts">
+          <metrics statements="1" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="cond" truecount="0" falsecount="4"/>
+        </file>
+      </package>
+      <package name="core-modules.async-action">
+        <metrics statements="18" coveredstatements="10" conditionals="6" coveredconditionals="2" methods="10" coveredmethods="6"/>
+        <file name="index.ts" path="/Users/ylzhang/WorkSpace/gw-www/core-modules/async-action/index.ts">
+          <metrics statements="18" coveredstatements="10" conditionals="6" coveredconditionals="2" methods="10" coveredmethods="6"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="20" count="2" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="33" count="2" type="stmt"/>
+          <line num="36" count="2" type="stmt"/>
+          <line num="37" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-modules.entities">
+        <metrics statements="15" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="1"/>
+        <file name="WithEntities.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-modules/entities/WithEntities.tsx">
+          <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+        </file>
+        <file name="entitiesReducer.ts" path="/Users/ylzhang/WorkSpace/gw-www/core-modules/entities/entitiesReducer.ts">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-modules.request">
+        <metrics statements="28" coveredstatements="9" conditionals="4" coveredconditionals="0" methods="17" coveredmethods="2"/>
+        <file name="index.ts" path="/Users/ylzhang/WorkSpace/gw-www/core-modules/request/index.ts">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="requestMiddleware.ts" path="/Users/ylzhang/WorkSpace/gw-www/core-modules/request/requestMiddleware.ts">
+          <metrics statements="28" coveredstatements="9" conditionals="4" coveredconditionals="0" methods="17" coveredmethods="2"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="62" count="0" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-modules.styles">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="globalStyles.ts" path="/Users/ylzhang/WorkSpace/gw-www/core-modules/styles/globalStyles.ts">
+          <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.accordion">
+        <metrics statements="8" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <file name="AccordionGroup.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/accordion/AccordionGroup.tsx">
+          <metrics statements="8" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.accordion.__examples__">
+        <metrics statements="9" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <file name="AccordionDemo.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/accordion/__examples__/AccordionDemo.tsx">
+          <metrics statements="9" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.button">
+        <metrics statements="8" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="Button.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/button/Button.tsx">
+          <metrics statements="8" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.button.__examples__">
+        <metrics statements="10" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <file name="ButtonDemo.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/button/__examples__/ButtonDemo.tsx">
+          <metrics statements="10" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.carousel">
+        <metrics statements="31" coveredstatements="0" conditionals="28" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <file name="Carousel.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/carousel/Carousel.tsx">
+          <metrics statements="31" coveredstatements="0" conditionals="28" coveredconditionals="0" methods="13" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="64" count="0" type="stmt"/>
+          <line num="87" count="0" type="stmt"/>
+          <line num="94" count="0" type="stmt"/>
+          <line num="99" count="0" type="stmt"/>
+          <line num="115" count="0" type="stmt"/>
+          <line num="117" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.carousel.__examples__">
+        <metrics statements="6" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="CarouselDemo.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/carousel/__examples__/CarouselDemo.tsx">
+          <metrics statements="6" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.checkbox">
+        <metrics statements="7" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="CheckBox.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/checkbox/CheckBox.tsx">
+          <metrics statements="7" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.checkbox.__examples__">
+        <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="CheckBoxDemo.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/checkbox/__examples__/CheckBoxDemo.tsx">
+          <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.drop-down">
+        <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="DropDown.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/drop-down/DropDown.tsx">
+          <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.drop-down.__examples__">
+        <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="DropDownDemo.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/drop-down/__examples__/DropDownDemo.tsx">
+          <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.footer">
+        <metrics statements="5" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="Footer.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/footer/Footer.tsx">
+          <metrics statements="5" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.header">
+        <metrics statements="6" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="Header.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/header/Header.tsx">
+          <metrics statements="6" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="71" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.input">
+        <metrics statements="5" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="Input.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/input/Input.tsx">
+          <metrics statements="5" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.input.__examples__">
+        <metrics statements="7" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="InputDemo.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/input/__examples__/InputDemo.tsx">
+          <metrics statements="7" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.pagination">
+        <metrics statements="46" coveredstatements="0" conditionals="51" coveredconditionals="0" methods="15" coveredmethods="0"/>
+        <file name="PageCountSelector.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/pagination/PageCountSelector.tsx">
+          <metrics statements="13" coveredstatements="0" conditionals="11" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="17" count="0" type="cond" truecount="0" falsecount="1"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+        </file>
+        <file name="PageLink.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/pagination/PageLink.tsx">
+          <metrics statements="16" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="cond" truecount="0" falsecount="1"/>
+          <line num="10" count="0" type="cond" truecount="0" falsecount="3"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+        </file>
+        <file name="PageSelector.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/pagination/PageSelector.tsx">
+          <metrics statements="9" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="12"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+        </file>
+        <file name="Pagination.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/pagination/Pagination.tsx">
+          <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.pagination.__examples__">
+        <metrics statements="18" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <file name="PaginationDemo.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/pagination/__examples__/PaginationDemo.tsx">
+          <metrics statements="18" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="47" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.search-result-list">
+        <metrics statements="51" coveredstatements="0" conditionals="68" coveredconditionals="0" methods="17" coveredmethods="0"/>
+        <file name="BottomInfoContainer.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/search-result-list/BottomInfoContainer.tsx">
+          <metrics statements="7" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+        </file>
+        <file name="ClickableImg.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/search-result-list/ClickableImg.tsx">
+          <metrics statements="6" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+        </file>
+        <file name="FavButton.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/search-result-list/FavButton.tsx">
+          <metrics statements="3" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+        </file>
+        <file name="InfoLabel.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/search-result-list/InfoLabel.tsx">
+          <metrics statements="6" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="17" count="0" type="stmt"/>
+        </file>
+        <file name="ItermInfo.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/search-result-list/ItermInfo.tsx">
+          <metrics statements="7" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+        </file>
+        <file name="SearchResultItem.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/search-result-list/SearchResultItem.tsx">
+          <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+        </file>
+        <file name="SearchResultList.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/search-result-list/SearchResultList.tsx">
+          <metrics statements="6" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+        </file>
+        <file name="TopInfoContainer.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/search-result-list/TopInfoContainer.tsx">
+          <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="core-ui-components.search-result-list.__examples__">
+        <metrics statements="9" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="SearchResultListDemo.tsx" path="/Users/ylzhang/WorkSpace/gw-www/core-ui-components/search-result-list/__examples__/SearchResultListDemo.tsx">
+          <metrics statements="9" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
