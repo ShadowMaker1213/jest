@@ -12,7 +12,7 @@ const test = {
             .url(client.launch_url)
             .useXpath()
             .click('//*[contains(text(), "Treffer anzeigen")]')
-            .assert.urlContains('search-results')
+            .assert.urlContains('search-results 123')
             .useCss()
             .waitForElementVisible('.title', 5000)
             .click('.search-result-item a')
